@@ -7,14 +7,11 @@ package com.wuyi.exception;
  */
 public class Demo {
     public static void main(String[] args) {
-        System.out.println(Byte.MAX_VALUE);
-        System.out.println(Byte.MIN_VALUE);
-        byte a=127;
-        int i = a +3;
-        System.out.println(2147483647+2L);
+        short x=1;
+        x+=1;
+        x+=1;
+        System.out.println(x);
     }
     protected final class a{
-
-
     }
 }
