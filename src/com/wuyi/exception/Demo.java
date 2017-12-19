@@ -7,11 +7,7 @@ package com.wuyi.exception;
  */
 public class Demo {
     public static void main(String[] args) {
-        short x=1;
-        x+=1;
-        x+=1;
-        System.out.println(x);
-    }
-    protected final class a{
+        System.out.println("test");
+        System.out.println("dasdsa");
     }
 }
